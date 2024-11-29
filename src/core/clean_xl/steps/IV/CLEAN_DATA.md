@@ -19,3 +19,18 @@ Realizado na coluna `Data da Avaliação e Liberação`.
 **Verifica se avalidado e liberado;**
 
 Se for não nulo, os dados da linha são obtidos
+
+### Terceira Limpeza
+
+Realizado nas colunas:
+
+|       _**`Cloro`**_       |
+| :-----------------------: |
+|     _**`Turbidez`**_      |
+|        _**`Cor`**_        |
+| _**`Coliformes Totais`**_ |
+|      _**`E Coli`**_       |
+
+**Modificar tipo de dado;**
+
+Altera os valores de `Object` para `String`

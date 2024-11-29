@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from utils.clean_xl.index import clean_excel
+from core.clean_xl.index import clean_excel
 
 st.title("Adicione a amostra mensal")
 

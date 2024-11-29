@@ -19,4 +19,4 @@ Colunas necessárias a seguir:
 |      _**`Responsável Técnico`**_      |
 | _**`Data da Avaliação e Liberação`**_ |
 
-Ir para o passo 4: [Step IV »](/src/utils/clean_xl/steps/IV/CLEAN_DATA.md)
+Ir para o passo 4: [Step IV »](/src/core/clean_xl/steps/IV/CLEAN_DATA.md)

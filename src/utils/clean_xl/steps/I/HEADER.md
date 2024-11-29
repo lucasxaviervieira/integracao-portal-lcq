@@ -2,7 +2,7 @@
 
 ## Novo Cabeçalho
 
-O arquivo `new_header.py` tem como objetivo estruturar uma novo cabeçalho aos dados importados do `Excel` visto que os dados reais não estão no topo do arquivo.
+Esse módulo tem como objetivo estruturar uma novo cabeçalho aos dados importados do `Excel` visto que os dados reais não estão no topo do arquivo.
 
 ![Logo][step1_img]
 

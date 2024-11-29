@@ -2,7 +2,7 @@
 
 ## Concatenar Colunas
 
-O arquivo `concatenate_columns.py` tem como objetivo concatenar as colunas mescladas do `Excel`.
+Esse módulo tem como objetivo concatenar as colunas mescladas do `Excel`.
 
 Visto que ao arquivo ser importado pelo `Pandas`, as colunas são separadas (como na segunda imagem).
 

@@ -2,7 +2,7 @@
 
 ## Limpar dados
 
-Esse módulo tem como objetivo limpar os dados de todas as colunas do `dataframe`.
+Esse módulo tem como objetivo limpar os dados de algumas colunas do `dataframe`.
 
 ### Primeira Limpeza
 

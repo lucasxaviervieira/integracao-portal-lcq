@@ -5,7 +5,7 @@ def new_header(dataframe, file):
     try:
         header_row = None
         for index, row in dataframe.iterrows():
-            if row.astype(str).str.contains("Endereço", na=False).any():
+            if row.astype(str).str.contains("Ponto", na=False).any():
                 header_row = index
                 break
 
@@ -13,4 +13,6 @@ def new_header(dataframe, file):
             df = pd.read_excel(file, header=header_row)
             return df
     except Exception as e:
-        return f"Erro ao concatenar as colunas: {str(e)}"
+        return (
+            f"Erro ao buscar colunas de referência como cabeçalho (PASSO I): {str(e)}"
+        )

@@ -17,4 +17,4 @@ def concatenate_columns(df):
         return df
 
     except Exception as e:
-        return f"Erro ao concatenar as colunas: {str(e)}"
+        return f"Erro ao concatenar as colunas (PASSO II): {str(e)}"

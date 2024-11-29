@@ -1,5 +1,5 @@
 [project]
-name = "python-test"
+name = "integracao-portal-lcq"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [

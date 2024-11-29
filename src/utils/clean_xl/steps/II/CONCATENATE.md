@@ -16,3 +16,5 @@ Visto que ao arquivo ser importado pelo `Pandas`, as colunas são separadas (com
 
 [step2_1_img]: /assets/step2_1.png
 [step2_2_img]: /assets/step2_2.png
+
+Ir para o passo 3: [Step III »](/src/utils/clean_xl/steps/III/REQUIRED_COLUMNS.md)

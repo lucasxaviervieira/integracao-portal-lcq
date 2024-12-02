@@ -9,6 +9,8 @@ dependencies = [
     "pandas>=2.2.3",
     "openpyxl>=3.1.5",
     "streamlit>=1.40.2",
+    "ldap3>=2.9.1",
+    "python-dotenv>=1.0.1",
 ]
 requires-python = "==3.12.*"
 readme = "README.md"

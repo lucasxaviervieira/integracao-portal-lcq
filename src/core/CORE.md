@@ -2,7 +2,13 @@
 
 O núcleo do sistema tem como objetivo, realizar a limpeza do `Excel` tratar seus dados a partir de um `dataframe` - da biblioteca `Pandas` - e, então se conectar a um Banco de Dados para inserir as novas informações.
 
-O núcleo está divido em 2 etapas;
+O núcleo está divido em 3 etapas;
+
+## Etapa I {#AUTH}
+
+Esse módulo tem como objetivo, implementar um meio de autorização para o uso do sistema;
+
+Ir para o módulo: [Auth »](/src/core/auth/AUTH.md)
 
 ## Etapa I {#CLEAN_XL}
 

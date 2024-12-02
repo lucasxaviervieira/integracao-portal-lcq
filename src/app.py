@@ -1,22 +1,17 @@
 import streamlit as st
-import pandas as pd
-from core.clean_xl.index import clean_excel
+from content import *
 
-st.title("Adicione a amostra mensal")
 
-uploaded_file = st.file_uploader("Envie um arquivo Excel", type=["xlsx", "xls"])
+if "logged_in" not in st.session_state:
+    st.session_state["logged_in"] = False
 
-if uploaded_file:
-    try:
-        df = pd.read_excel(uploaded_file, header=None)
 
-        new_df = clean_excel(df, uploaded_file)
+placeholder = st.empty()
 
-        st.write(len(new_df))
-        st.write(new_df)
-        st.write(new_df.dtypes)
-
-    except Exception as e:
-        st.error(f"Erro ao processar o arquivo: {e}")
+if not st.session_state["logged_in"]:
+    with placeholder.container():
+        login()
 else:
-    st.info("Envie um arquivo para continuar.")
+    with placeholder.container():
+        st.write("Bem-vindo, {}!".format(st.session_state["username"]))
+        main_app()

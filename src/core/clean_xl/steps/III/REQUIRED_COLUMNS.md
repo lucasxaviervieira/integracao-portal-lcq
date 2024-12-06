@@ -9,8 +9,7 @@ Colunas necessárias a seguir:
 |                Colunas                |
 | :-----------------------------------: |
 |             _**`Ponto`**_             |
-|        _**`Data de Coleta`**_         |
-|             _**`Hora`**_              |
+|      _**`Data Hora da Coleta`**_      |
 |             _**`Cloro`**_             |
 |           _**`Turbidez`**_            |
 |              _**`Cor`**_              |

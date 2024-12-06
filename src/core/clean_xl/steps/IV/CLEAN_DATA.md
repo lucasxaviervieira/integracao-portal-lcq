@@ -34,3 +34,11 @@ Realizado nas colunas:
 **Modificar tipo de dado;**
 
 Altera os valores de `Object` para `String`
+
+### Quarta Limpeza
+
+Realizado na coluna `Ponto`.
+
+**Separa o sufixo `N` do conjunto;**
+
+Logo após isso, transforma essa coluna no índice do `dataframe`.

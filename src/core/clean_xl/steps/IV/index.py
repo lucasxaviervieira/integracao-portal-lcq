@@ -3,6 +3,7 @@ def clean_data(df):
         new_df = first_clean(df)
         new_df = second_clean(new_df)
         new_df = third_clean(new_df)
+        new_df = fourth_clean(new_df)
         return new_df
     except Exception as e:
         return f"Erro ao tratar os dados: {str(e)}"
@@ -35,3 +36,12 @@ def third_clean(df):
         return df
     except Exception as e:
         return f"Erro ao tratar os dados na terceira limpeza (PASSO IV): {str(e)}"
+
+
+def fourth_clean(df):
+    try:
+        df["Ponto"] = df["Ponto"].str.rstrip("N")
+        df = df.set_index("Ponto")
+        return df
+    except Exception as e:
+        return f"Erro ao tratar os dados na quarta limpeza (PASSO IV): {str(e)}"

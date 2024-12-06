@@ -2,8 +2,7 @@ def required_columns(df):
     try:
         columns_required = [
             "Ponto",
-            "Data da coleta",
-            "Hora",
+            "Data e Hora da Coleta",
             "Cloro",
             "Turbidez",
             "Cor",

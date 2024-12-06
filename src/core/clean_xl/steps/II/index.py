@@ -1,4 +1,16 @@
+import pandas as pd
+
+
 def concatenate_columns(df):
+    try:
+        new_df = first_concatenate(df)
+        new_df = second_concatenate(df)
+        return new_df
+    except Exception as e:
+        return f"Erro ao concatenar as colunas (PASSO II): {str(e)}"
+
+
+def first_concatenate(df):
     try:
         unnamed_columns = [col for col in df.columns if "Unnamed" in col]
 
@@ -17,4 +29,20 @@ def concatenate_columns(df):
         return df
 
     except Exception as e:
-        return f"Erro ao concatenar as colunas (PASSO II): {str(e)}"
+        return f"Erro ao concatenar as colunas com sinal de '>' (PASSO II): {str(e)}"
+
+
+def second_concatenate(df):
+    try:
+        df["Data da coleta"] = pd.to_datetime(df["Data da coleta"])
+
+        df["Hora"] = df["Hora"].astype(str)
+
+        df["Data e Hora da Coleta"] = pd.to_datetime(
+            df["Data da coleta"].dt.strftime("%Y-%m-%d") + " " + df["Hora"]
+        )
+        return df
+    except Exception as e:
+        return (
+            f"Erro ao concatenar a coluna de data e hora da coleta (PASSO II): {str(e)}"
+        )

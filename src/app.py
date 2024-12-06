@@ -5,7 +5,6 @@ from content import *
 if "logged_in" not in st.session_state:
     st.session_state["logged_in"] = False
 
-
 placeholder = st.empty()
 
 if not st.session_state["logged_in"]:

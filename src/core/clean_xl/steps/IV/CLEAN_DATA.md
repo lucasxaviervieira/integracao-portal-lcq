@@ -35,6 +35,8 @@ Realizado nas colunas:
 
 Altera os valores de `Object` para `String`
 
+**_POSTERIORMENTE: VERIFICAR SE EXISTE, SE NÃO, NÃO ADICIONA_**
+
 ### Quarta Limpeza
 
 Realizado na coluna `Ponto`.

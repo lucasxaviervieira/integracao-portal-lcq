@@ -1,6 +1,6 @@
 # MÓDULOS DO SISTEMA
 
-O núcleo do sistema tem como objetivo, realizar a limpeza do `Excel` tratar seus dados a partir de um `dataframe` - da biblioteca `Pandas` - e, então se conectar a um Banco de Dados para inserir as novas informações.
+O núcleo do sistema tem como objetivo, realizar a limpeza do `Excel` tratar seus dados a partir de um `dataframe` - _da biblioteca `Pandas`_ - e, então se conectar a um Banco de Dados para inserir as novas informações.
 
 O núcleo está divido em 3 etapas;
 

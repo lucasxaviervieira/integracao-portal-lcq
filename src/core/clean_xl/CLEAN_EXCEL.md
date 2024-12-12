@@ -1,6 +1,6 @@
 # HIGIENIZAR EXCEL
 
-Esse módulo tem como objetivo estruturar um `dataframe` -- biblioteca `Pandas` -- legível a partir dos dados importados de um arquivo `Excel`
+Esse módulo tem como objetivo estruturar um `dataframe` - _da biblioteca `Pandas`_ - legível a partir dos dados importados de um arquivo `Excel`
 
 O módulo está divido em 4 etapas/passos;
 
@@ -20,7 +20,7 @@ Ir para o **Passo** 2: [Step II »](/src/core/clean_xl/steps/II/CONCATENATE.md)
 
 Essa etapa tem como objetivo extrair apenas os valores de colunas desejadas;
 
-Ir para o **Passo** 2: [Step II »](/src/core/clean_xl/steps/III/REQUIRED_COLUMNS.md)
+Ir para o **Passo** 3: [Step III »](/src/core/clean_xl/steps/III/REQUIRED_COLUMNS.md)
 
 ## Etapa IV
 

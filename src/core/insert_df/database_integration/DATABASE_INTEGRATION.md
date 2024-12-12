@@ -24,3 +24,5 @@ Para utilizar essa classe, são necessárias variavéis de ambiente, exemplo a s
 | _**`DATABASE_NAME`**_     | example_db       |
 | _**`DATABASE_USERNAME`**_ | example_username |
 | _**`DATABASE_PASSWORD`**_ | example_password |
+
+Voltar para a **documentação índice**: [Documentation »](/src/core/CORE.md)

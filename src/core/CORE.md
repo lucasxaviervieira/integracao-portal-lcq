@@ -10,13 +10,13 @@ Esse módulo tem como objetivo, implementar um meio de autorização para o uso 
 
 Ir para o módulo: [Auth »](/src/core/auth/AUTH.md)
 
-## Etapa I {#CLEAN_XL}
+## Etapa II {#CLEAN_XL}
 
 Esse módulo tem como objetivo higienizar o `Excel` importado;
 
 Ir para o módulo: [Clean XL »](/src/core/clean_xl/CLEAN_EXCEL.md)
 
-## Etapa II {#INSERT_DF}
+## Etapa III {#INSERT_DF}
 
 Esse módulo tem como objetivo inserir o `dataframe` em um BD;
 

@@ -6,9 +6,9 @@ O arquivo principal `index.py`, tem a função `insert_dataframe()`, que recebe 
 
 Para cada linha ele verifica se existe uma amostra já cadastrada no banco.
 
-Se existe são atualizado os dados de análise com os valores fornecidos pelas colunas.
+Se existe, são atualizados os dados de análise com os valores fornecidos pelas colunas.
 
-Senão, ele insere uma nova amostra e a partir disso, insere novos dados de análise.
+Se não, ele insere uma nova amostra e a partir disso, insere novos dados de análise.
 
 **A seguir, como as colunas são representadas em cada ambiente:**
 

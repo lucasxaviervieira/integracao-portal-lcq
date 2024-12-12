@@ -4,6 +4,8 @@ Esse módulo tem como objetivo. inserir os dados do `dataframe` em um Banco de D
 
 O arquivo principal `index.py`, tem a função `insert_dataframe()`, que recebe o `dataframe` tratado.
 
+Utilizando a classe [PainelBordoDB](/src/core/insert_df/database_integration/DATABASE_INTEGRATION.md), a seguinte lógica é aplicada:
+
 Para cada linha ele verifica se existe uma amostra já cadastrada no banco.
 
 Se existe, são atualizados os dados de análise com os valores fornecidos pelas colunas.

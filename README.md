@@ -32,7 +32,7 @@ Instale as dependências
 
 **Utilize o gerenciador de pacotes** `PDM`
 
-Instale as dependências
+_Obs.: você pode utilizar também o `PIP`_
 
 ```bash
   pdm add
@@ -44,7 +44,7 @@ Inicie o servidor
   pdm run streamlit run .\src\app.py
 ```
 
-#### Obs.: Inicie após configurar as variavéis de ambiente
+#### Obs.: Inicie após configurar as variáveis de ambiente
 
 ### Configurar as Variáveis de Ambiente
 
